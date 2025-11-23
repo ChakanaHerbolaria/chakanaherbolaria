@@ -1,0 +1,100 @@
+[
+  {
+    "titulo": "Inciensos",
+    "descripcion": "Bolsa con inciensos variados",
+    "tipo": "producto",
+    "imagen": "img/incienso5.jpg",
+    "precio":[2],
+    "cant":["5"]
+  },
+  {
+    "titulo": "Sesión de reiki",
+    "descripcion": "Terapia de reiki, tecnica....",
+    "tipo": "servicio",
+    "imagen": "img/salbruja.jpg",
+    "precio":[20]
+  },{
+    "titulo": "Babaganoush",
+    "descripcion": "Pasta-puré de berenjena típica de la cocina árabe y mediterránea. Se suele comer con pan de pita",
+    "tipo": "producto",
+    "imagen": "img/babaganoush.jpg",
+    "precio":[4.5,    7],
+    "cant":["110gr","250gr"]
+  },
+  {
+    "titulo": "Muhammara",
+    "descripcion": "Salsa picante de pimientos rojos para untar. Receta Siria.",
+    "tipo": "producto",
+    "imagen": "img/muhammara.jpg",
+    "precio":[6    ,  8.5],
+    "cant":["150gr","220gr"]
+  },
+  {
+    "titulo": "Ají de Mango",
+    "descripcion": "Ají casero de mango, picante alto",
+    "tipo": "producto",
+    "imagen": "img/ajimango.jpg",
+    "precio":[6,       8],
+    "cant":["250gr","400gr"]
+  },
+  {
+    "titulo": "Ají de Uvilla",
+    "descripcion": "Ají casero de uvilla, picante alto",
+    "tipo": "producto",
+    "imagen": "img/ajiuvilla.jpg",
+    "precio":[4.50,   6.50],
+    "cant":["150gr","300gr"]
+  },
+  {
+    "titulo": "Ají de Naranjilla",
+    "descripcion": "Ají casero de naranjilla, picante alto",
+    "tipo": "producto",
+    "imagen": "img/ajinaranjilla.jpg",
+    "precio":[6.50]
+  },
+  {
+    "titulo": "Ají de aguacate",
+    "descripcion": "Ají casero de aguacate, picante alto",
+    "tipo": "producto",
+    "imagen": "img/ajiuvilla.jpg",
+    "precio":[5,   6.50],
+    "cant":["150gr","250gr"]
+  },
+  {
+    "titulo": "Ají de mora/mortiño",
+    "descripcion": "Ají casero de mora/mortiño, picante alto",
+    "tipo": "producto",
+    "imagen": "img/ajiuvilla.jpg",
+    "precio":[5,   6.50],
+    "cant":["150gr","250gr"]
+  },
+  {
+    "titulo": "Perfumes",
+    "descripcion": "Perfumes santificados de hierbas",
+    "tipo": "producto",
+    "imagen": "img/perfume.jpg",
+    "precio":[11]
+  },
+  {
+    "titulo": "Velas Intencionadas",
+    "descripcion": "Velas santificadas, precio varía según necesidad",
+    "tipo": "producto",
+    "imagen": "img/perfume.jpg",
+    "precio":[0.50]
+  },
+  {
+    "titulo": "Ambientadores/Splash",
+    "descripcion": "Ambientadores/Splash santificados de hierbas",
+    "tipo": "producto",
+    "imagen": "img/ambi-splash.jpg",
+    "precio":[7]
+  },
+  {
+    "titulo": "Sal de Bruja",
+    "descripcion": "Sal de Bruja santificada",
+    "tipo": "producto",
+    "imagen": "img/salbruja.jpg",
+    "precio":[4]
+  }
+  
+]

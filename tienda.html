@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Astloch:wght@400;700&family=Macondo&display=swap" rel="stylesheet">
+    
+    <title>Chakana - Tienda</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img src="img/logo.png" alt="Logo" height="110" width="110" class="logo">
+            <section>
+                <h1>Chakana</h1>
+                <p>Centro Herbolario y Terapias Alternativas</p>
+            </section>      
+        </div>
+        <nav class="barra">
+        <ul class="barraul">
+            <li class="barrali"><a href="index.html">Inicio</a></li>
+            <li class="barrali"><a href="tienda.html">Tienda</a></li>
+            <li class="barrali"><a href="blog.html">Blog</a></li>
+            <li class="barrali"><a href="about.html">Sobre Nosotros</a></li>
+        </ul>
+        </nav>
+        <!-- Botón hamburguesa (solo visible en móvil) -->
+        <button class="menu-toggle">☰</button>
+        <script src="js/barra.js"></script>
+    </header>
+
+    <h1 class="titulo">Catálogo de Productos y Servicios</h1>
+
+    <!-- Filtro -->
+    <div class="filtro">
+      <label for="filtro-tipo">Mostrar: </label>
+      <select id="filtro-tipo">
+        <option value="todos">Todos</option>
+        <option value="producto">Productos</option>
+        <option value="servicio">Servicios</option>
+      </select>
+    </div>
+    
+    <!-- Lista de productos -->
+    <div id="lista-productos" class="productos"></div>
+
+  <!-- Modal -->
+   <div id="modal" class="modal">
+     <div class="modal-content">
+       <span class="close">&times;</span>
+       <div class="modal-left" id="modal-left"></div>
+       <div class="modal-right" id="modal-right"></div>
+     </div>
+   </div>
+
+<script src="js/tienda.js"></script>
+</body>
+</html>
