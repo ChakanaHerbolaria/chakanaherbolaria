@@ -1,100 +1,115 @@
 [
   {
-    "titulo": "Inciensos",
-    "descripcion": "Bolsa con inciensos variados",
-    "tipo": "producto",
-    "imagen": "img/incienso5.jpg",
-    "precio":[2],
-    "cant":["5"]
-  },
-  {
-    "titulo": "Sesión de reiki",
-    "descripcion": "Terapia de reiki, tecnica....",
-    "tipo": "servicio",
-    "imagen": "img/salbruja.jpg",
-    "precio":[20]
-  },{
+    "id": "babaganoush",
     "titulo": "Babaganoush",
     "descripcion": "Pasta-puré de berenjena típica de la cocina árabe y mediterránea. Se suele comer con pan de pita",
     "tipo": "producto",
     "imagen": "img/babaganoush.jpg",
-    "precio":[4.5,    7],
-    "cant":["110gr","250gr"]
+    "precio":["$6"," $6.50"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["El babaganoush tiene su origen en la gastronomía del Oriente Medio, típico de la cocina árabe y mediterránea. Su nombre en árabe significa literalmente “papá mimado”, lo que refleja un carácter afectuoso y popular de la receta.", 
+    "Ingredientes principales:", 
+    "Berenjena, Tahini (ajonjolí), Ajo, limón, Aceite de oliva, Comino y otras hierbas.",
+    "Propiedades de sanación:",
+    "El babaganoush combina ingredientes con propiedades sanadoras que benefician la digestión, el corazón y el sistema inmunológico. La mezcla de berenjena, tahini, ajo, limón y aceite de oliva crea un alimento que no solo es delicioso, sino también terapéutico.",
+    "Su principal ingrediente, la berenjena rica en fibra, ayuda a regular la digestión, contiene antioxidantes como la nasunina, que protegen las células del daño oxidativo; favorece la salud cardiovascular al reducir el colesterol LDL, y un efecto diurético ligero contribuye a disminuir la retención de líquidos.",
+    "Los beneficios integrales del babaganoush son digestivo,  mejora la flora intestinal y previene inflamaciones. Cardiovascular, regula colesterol y presión arterial. Inmunológico, fortalece defensas contra infecciones. Detox, ayuda al hígado y riñones en la eliminación de toxinas. Energético y nutritivo, aporta minerales, vitaminas y grasas saludables que sostienen el bienestar general.",
+    "Compartir babaganoush en un círculo es compartir salud, energía y cultura, alimento que aporta símbolos de transformación, abundancia y conexión comunitaria. Sus ingredientes tienen una resonancias energéticas que lo convierten en un puente entre lo cotidiano y lo sagrado.",
+    "La Berenjena asada simboliza la transmutación, asociada a la energía de renacimiento, pues su pulpa se vuelve crema tras el proceso de quemado, convirtiéndose en simbolismo alquímico, donde la transformación de la berenjena en crema recuerda el proceso de convertir lo ordinario en lo extraordinario.",
+    "La berenjena al mezclarse con los otros ingredientes, hacen del babaganoush un gesto de sanación colectiva, donde cada bocado es integración de energías protectoras, purificadoras y abundantes. Es un alimento espirituoso porque integra símbolos de fuego, semilla, protección, purificación y unión, convirtiéndose en un plato que no solo nutre el cuerpo, sino también el alma y la comunidad."]
   },
   {
+    "id": "muhammara",
     "titulo": "Muhammara",
     "descripcion": "Salsa picante de pimientos rojos para untar. Receta Siria.",
     "tipo": "producto",
     "imagen": "img/muhammara.jpg",
-    "precio":[6    ,  8.5],
-    "cant":["150gr","220gr"]
+    "precio":["$6.75" ," $7.50"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["El muhammara es una crema originaria de Alepo, Siria, elaborada con pimientos asados, nueces y miel, aceite de oliva y otros condimentos. Sus ingredientes aportan beneficios sanadores al cuerpo y, desde una mirada esotérica, simbolizan protección, abundancia y conexión con la energía vital.",
+    "Su nombre proviene del árabe muḥammara, que significa “roja”, en referencia al color intenso de los pimientos.",
+    "Propiedades sanadoras de sus ingredientes:",
+    "Su principal ingrediente, los pimientos rojos asados, son ricos en vitamina C, fortalecen el sistema inmunológico; contienen antioxidantes que protegen contra el envejecimiento celular. Además, favorecen la circulación y aportan energía vital.",
+    "Propiedades esotéricas y espirituosas:",
+    "Los Pimientos rojos se asocian al elemento fuego, la pasión y la energía vital; simbolizan fuerza y transformación. Las Nueces evocan la sabiduría y la abundancia, pues su forma recuerda al cerebro y a la semilla fértil. La miel, la dulzura de la vida. El Aceite de oliva: símbolo ancestral de paz, prosperidad y conexión con la tierra. El Ajo es protector contra energías negativas, usado en rituales de limpieza. El muhammara puede convertirse en un gesto de abundancia y protección colectiva; de integración de fuerzas vitales en unidad."]
   },
   {
+    "id": "ajimango",
     "titulo": "Ají de Mango",
     "descripcion": "Ají casero de mango, picante alto",
     "tipo": "producto",
     "imagen": "img/ajimango.jpg",
-    "precio":[6,       8],
-    "cant":["250gr","400gr"]
+    "precio":["$5",  " $6"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["El ají de mango es una preparación que fusiona lo frutal con lo picante, integrando la dulzura tropical del mango con ingredientes tradicionales de la salsa de ají. Este condimento no solo es un deleite gastronómico, sino que también porta significados sanadores y espirituosos.",
+    "Origen del ají de mango:",
+    "Es un fruto tropical originario del sur de Asia (India y Birmania), cultivado desde hace más de 4.000 años. Llegó a América en la época colonial y se adaptó muy bien a climas tropicales como los de Ecuador, Colombia y Perú.",
+    "El ají de mango es una creación contemporánea que combina la tradición de los ajíes latinoamericanos con el dulzor ácido del mango, generando un sabor que equilibra lo picante con lo frutal.",
+    "Propiedades sanadoras:",
+    "Su ingrediente principal, el mango es rico en vitamina A y C, fortalece defensas y la salud ocular. Contiene antioxidantes que protegen contra el envejecimiento celular y favorece la digestión gracias a sus enzimas naturales.",
+    "Propiedades esotéricas y espirituosas:",
+    "El Mango es una fruta solar, símbolo de abundancia, dulzura y prosperidad; su color dorado evoca energía vital y alegría. Alimento de abundancia tropical: mezcla lo dulce, lo ácido y lo picante, recordando la riqueza de la vida.",
+    "El ají de mango es un alimento sanador y espirituoso: fortalece el cuerpo con vitaminas y antioxidantes, protege energéticamente con símbolos de luz y limpieza, y se convierte en un gesto de abundancia y cohesión cuando se comparte en círculo."]
   },
   {
+    "id": "ajiuvilla",
     "titulo": "Ají de Uvilla",
     "descripcion": "Ají casero de uvilla, picante alto",
     "tipo": "producto",
     "imagen": "img/ajiuvilla.jpg",
-    "precio":[4.50,   6.50],
-    "cant":["150gr","300gr"]
+    "precio":["$4.50"," $5"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["El ají de uvilla es una preparación que combina lo ancestral con lo creativo, integrando la fruta andina uvilla ( o golden berry) con ingredientes cotidianos como cebolla, ajo, aceite, vinagre y perejil. Este ají no solo es un acompañante gastronómico, sino que puede leerse como un alimento con propiedades.",
+    "La uvilla es originaria de la región andina de Sudamérica, cultivada en Ecuador, Perú y Colombia desde tiempos prehispánicos. Se consume fresca, en infusiones o como medicina natural por sus propiedades digestivas y energéticas.",
+    "El ají de uvilla es una creación contemporánea que fusiona la tradición de los ajíes ecuatorianos con el dulzor ácido de la uvilla, generando un sabor único que equilibra lo picante con lo frutal.",
+    "Propiedades sanadoras:",
+    "La Uvilla  es rica en vitamina C y antioxidantes, fortalece el sistema inmunológico. Favorece la digestión y la salud hepática.  Tiene efectos energizantes y revitalizantes.",
+    "Propiedades esotéricas y espirituosas:",
+    "La Uvilla es un símbolo de luz solar encapsulada, representa abundancia, vitalidad y alegría y su mezcla con el aceite: le da fluidez  y conecta con la energía de la tierra. Con el Vinagre, como elemento purificador que ayuda a liberar lo estancado, y el Perejil, planta de prosperidad y renovación, vinculada a la buena fortuna, se logra un condimento de buena fortuna para quien incorpora el aji de uvilla a sus alimentos.  Con su mezcla de lo dulce, lo ácido y lo picante, recuerda que la vida integra contrastes.",
+    "El ají de uvilla es un alimento sanador y espirituoso que fortalece el cuerpo con vitaminas y antioxidantes, protege energéticamente con símbolos de luz y limpieza, y se convierte en un gesto de abundancia y cohesión cuando se comparte en círculo."]
   },
   {
+    "id": "ajinaranjilla",
     "titulo": "Ají de Naranjilla",
     "descripcion": "Ají casero de naranjilla, picante alto",
     "tipo": "producto",
     "imagen": "img/ajinaranjilla.jpg",
-    "precio":[6.50]
+    "precio":["$4.50", " $5"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["Preparación que une lo ancestral andino con lo cotidiano, transformando la fruta naranjilla en un condimento vibrante y sanador. Al combinarla con cebolla, ajo, aceite vegetal, vinagre blanco y perejil, se obtiene un ají que no solo nutre el cuerpo, sino que también porta significados espirituosos y esotéricos.",
+    "La naranjilla es originaria de la región andina de Ecuador, Colombia y Perú. Ha sido cultivada desde tiempos prehispánicos como fruta refrescante y medicinal. Aunque su uso tradicionales como jugos, infusiones y remedios caseros para la digestión y la vitalidad. el ají de naranjilla surge como una fusión contemporánea que integra la tradición de los ajíes ecuatorianos con el sabor ácido y frutal de la naranjilla, creando un condimento único.",
+    "Propiedades sanadoras:",
+    "Su ingrediente principal, la Naranjilla es rica en vitamina C y antioxidantes, fortalece defensas, favorece la digestión y la salud intestinal; es muy refrescante y energizante, ayuda a combatir la fatiga.",
+    "Propiedades esotéricas y espirituosas:",
+    "La Naranjilla es una fruta solar, símbolo de renovación, frescura y vitalidad; su color naranja evoca energía y creatividad, que unida a la cebolla que está asociada a la revelación y cuyas capas simbolizan la apertura de la verdad, sumada a la fluidez del aceite vegetal, y la purificación del vinagre, ayudan a liberar lo estancado, el perejil como complemento, convoca la prosperidad y la buena fortuna.",
+    "El ají de naranjilla es un alimento sanador y espirituoso,  fortalece el cuerpo con vitaminas y antioxidantes, protege energéticamente con símbolos de luz y renovación, y se convierte en un gesto de abundancia y cohesión cuando se comparte en círculo."]
   },
   {
+    "id": "ajiaguacacte",
     "titulo": "Ají de aguacate",
     "descripcion": "Ají casero de aguacate, picante alto",
     "tipo": "producto",
     "imagen": "img/ajiuvilla.jpg",
-    "precio":[5,   6.50],
-    "cant":["150gr","250gr"]
+    "precio":["$5"," $5.50"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["El ají de aguacate es una preparación que combina lo ancestral y lo contemporáneo, integrando la cremosidad del aguacate con ingredientes tradicionales como cebolla, ajo, aceite vegetal, vinagre blanco y perejil. Este ají no solo es un acompañante gastronómico, sino también un alimento con propiedades sanadoras y espirituosas.",
+    "Origen del ají de aguacate:",
+    "Su principal ingrediente, es un fruto mesoamericano cultivado desde hace más de 7.000 años en México y Centroamérica. Fue considerado fruto sagrado por culturas como la maya y la azteca, asociado a la fertilidad y la abundancia.",
+    "El ají de aguacate es una creación moderna que fusiona la tradición de los ajíes ecuatorianos con la suavidad y riqueza del aguacate, generando un condimento fresco y nutritivo.",
+    "Propiedades sanadoras:",
+    "El aguacate es rico en grasas saludables (omega-9) que protegen el corazón. Contiene vitamina E y antioxidantes, que favorecen la piel y el sistema inmunológico. Aporta potasio y magnesio, regulando la presión arterial y la energía celular.",
+    "Propiedades esotéricas y espirituosas:",
+    "El Aguacate simboliza la fertilidad, abundancia y amor; su forma y semilla evocan la energía de la vida. El aji de aguacate es un alimento de abundancia y protección que mezcla lo cremoso, lo picante y lo herbal, recordando la riqueza de la vida. Al prepararlo y compartirlo, se invoca la energía vital del aguacate y la protección del ajo.",
+    "El ají de aguacate es un alimento sanador y espirituoso: nutre el cuerpo con grasas saludables y antioxidantes, protege energéticamente con símbolos de fertilidad y limpieza, y se convierte en un gesto de abundancia y cohesión cuando se comparte en círculo."] 
   },
   {
-    "titulo": "Ají de mora/mortiño",
-    "descripcion": "Ají casero de mora/mortiño, picante alto",
+    "id": "pommodoro",
+    "titulo": "Salsa Pommodoro",
+    "descripcion": "Salsa casera italiana de tomate con especias",
     "tipo": "producto",
     "imagen": "img/ajiuvilla.jpg",
-    "precio":[5,   6.50],
-    "cant":["150gr","250gr"]
-  },
-  {
-    "titulo": "Perfumes",
-    "descripcion": "Perfumes santificados de hierbas",
-    "tipo": "producto",
-    "imagen": "img/perfume.jpg",
-    "precio":[11]
-  },
-  {
-    "titulo": "Velas Intencionadas",
-    "descripcion": "Velas santificadas, precio varía según necesidad",
-    "tipo": "producto",
-    "imagen": "img/perfume.jpg",
-    "precio":[0.50]
-  },
-  {
-    "titulo": "Ambientadores/Splash",
-    "descripcion": "Ambientadores/Splash santificados de hierbas",
-    "tipo": "producto",
-    "imagen": "img/ambi-splash.jpg",
-    "precio":[7]
-  },
-  {
-    "titulo": "Sal de Bruja",
-    "descripcion": "Sal de Bruja santificada",
-    "tipo": "producto",
-    "imagen": "img/salbruja.jpg",
-    "precio":[4]
+    "precio":["$4.5"," $5.25"],
+    "cant":["Precio feria","Precio normal"]
   }
   
 ]

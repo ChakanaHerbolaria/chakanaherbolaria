@@ -5,6 +5,7 @@ let productosData = [];
 // Función para mostrar productos
 function mostrarProductos(filtro = "todos") {
   const contenedor = document.getElementById("lista-productos");
+
   contenedor.innerHTML = ""; // limpiar antes de volver a mostrar
 
   let filtrados = productosData;
@@ -25,8 +26,7 @@ function mostrarProductos(filtro = "todos") {
     item.innerHTML = `
         <img src="${prod.imagen}" alt="${prod.titulo}">
         <h3>${prod.titulo}</h3>
-        <p>${prod.descripcion}</p>
-        <div class="precio">$${prod.precio[0]}</div>
+        <div class="precio">${prod.precio[0]}</div>
       `;
 
     item.addEventListener("click", () => abrirModal(prod));
@@ -44,8 +44,9 @@ function abrirModal(prod) {
   left.innerHTML = `
     <h2>${prod.titulo}</h2>
     <p>${prod.descripcion}</p>
-    <div class="precio">Precio: $${prod.precio}</div>
-    <a class="whatsapp" target="_blank" href="https://wa.me/593995840993?text=Hola, estoy interesado en ${encodeURIComponent(prod.titulo)}">
+    <div class="precio">Precio: ${prod.precio}</div>
+    <a class="info" href="producto.html?id=${prod.id}">Más información</a>
+    <a class="whatsapp" target="_blank" href="https://wa.me/593995840993?text=Hola, me interesa ${encodeURIComponent(prod.titulo)}">
       Contactar por WhatsApp
     </a>
   `;

@@ -78,39 +78,74 @@ h1 {
   cursor: pointer;
 }
 
-@media (max-width: 900px) {
-  .barra ul {
-    display: none;               /* oculto por defecto */
-    flex-direction: column;      /* vertical */
-    background: #050f01;
-    position: absolute;
-    top: 120px;
-    left: 0%;
-    width: 100%;
-    padding: 10px;
-    text-align: center; 
-    justify-content: center; 
-  }
-
-  .barra ul.active {
-    display: flex; /* mostrar cuando se active */
-  }
-
-  .menu-toggle {
-    display: block; /* botón visible en móvil */
-  }
-}
-
-
 body {
-    color:#ccc4c0;
-    margin: 0;
-    background-color: #0c140a;
-    font-family: "Macondo", cursive;
-    font-weight: 400;
-    font-style: normal;
+  color:#ccc4c0;
+  margin: 0;
+  background-color: #0c140a;
+  font-family: "Macondo", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.slogan{
+  text-align: center;
+  text-shadow: 2px 1px 4px #ffd90096;
+}
+
+.hero{
+  margin: 15px 10%;
+  padding: 3px 15px;
+  background: #395c2e56;
+  border-radius: 3px;
+  display:flex;
+}
+.hero section{
+  width: 65%;
+}
+.hero_desc{
+  font-size: large;
+  text-shadow: 2px 1px 2px #000000;
+}
+.hero #hero_prod{
+  width: 30%;
+  margin: 1% 2.5%;
+  background: #395c2e56;
+  border-radius: 3px;
+  padding: 2%;
+}
+.hero #hero_prod h3{
+  text-align: center;
+}
+
+.btn_tienda{
+  padding: 10px 15px;
+  background: #196900;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.contenedor_img_hero {
+    width: 80%;
+    height: 200px;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.contenedor_img_hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+.negrita_marcada{
+  text-shadow: 2px 1px 2px #000000;
+}
 
 /*Tienda*/
 .productos { 
@@ -226,6 +261,14 @@ select {
   cursor: pointer; 
   color: #333;
 }
+.info {
+  padding: 10px 0px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px #DB4900;
+}
+.info:visited {
+  color: #ffffff;
+}
 .whatsapp {
   display: inline-block;
   padding: 10px 15px;
@@ -240,4 +283,72 @@ select {
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.9); }
   to { opacity: 1; transform: scale(1); }
+}
+
+.prod_individual{
+  margin: 25px 25px;
+  display: flex;
+}
+
+.prod_info{
+  width: 50%;
+}
+.prod_info #galeria{
+  margin-left: 10%;
+}
+.prod_info #galeria img{
+  border: 8px solid #142010;
+  width: 80%;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.prod_uso{
+  background: #142010;
+  width: 50%;
+  padding: 15px 15px;
+}
+
+
+@media (max-width: 900px) {
+  .barra ul {
+    display: none;               /* oculto por defecto */
+    flex-direction: column;      /* vertical */
+    background: #050f01;
+    position: absolute;
+    top: 120px;
+    left: 0%;
+    width: 100%;
+    padding: 10px;
+    text-align: center; 
+    justify-content: center; 
+  }
+
+  .barra ul.active {
+    display: flex; /* mostrar cuando se active */
+  }
+
+  .menu-toggle {
+    display: block; /* botón visible en móvil */
+  }
+
+  .prod_info #galeria{
+  margin-left: -1%;
+  }
+  .prod_info #galeria img{
+  border: 5px solid #142010;
+  width: 90%;
+  border-radius: 8px;
+  }
+
+  .hero{
+    display:block;
+  }
+  .hero section{
+  width: 95%;
+  }
+  .hero #hero_prod{
+  width: 95%;
+  margin: 2% 0%;
+  padding: 2%;
+  }
 }
