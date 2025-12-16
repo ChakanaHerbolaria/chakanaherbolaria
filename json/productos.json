@@ -109,7 +109,13 @@
     "tipo": "producto",
     "imagen": "img/ajiuvilla.jpg",
     "precio":["$4.5"," $5.25"],
-    "cant":["Precio feria","Precio normal"]
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":["La salsa pomodoro es uno de los pilares de la cocina italiana, sencilla en ingredientes pero profunda en simbolismo. Su origen, propiedades sanadoras y esotéricas revelan cómo un alimento cotidiano puede convertirse en un puente entre nutrición, cultura y espiritualidad.",
+    "El origen de la salsa pomodoro data de Italia, de los siglos XVI–XVII.  El tomate llegó desde nuestras tierras Americanas tras la colonización. En Napoli y el sur de Italia se consolidó la costumbre de cocinar el tomate con aceite de oliva, ajo y hierbas, dando origen a la salsa pomodoro. Hoy es emblema de la cocina mediterránea, base de pastas, pizzas y guisos, y representa la sencillez y abundancia de la dieta italiana que retorna a nuestras tierras para los secos y como salsa para untar.",
+    "Propiedades sanadoras:",
+    "El tomate es rico en licopeno, antioxidante que protege el corazón y previene el envejecimiento celular. Contiene vitamina C y A, fortaleciendo defensas y visión. Favorece la digestión y la salud de la piel. Su aceite de oliva es fuente de grasas saludables que protegen el sistema cardiovascular y contiene polifenoles con acción antiinflamatoria; además de favorecer la longevidad y la energía vital. El ajo que lo acompaña es un potente antibiótico natural y regulador de la presión arterial que refuerza el sistema inmunológico. La cebolla depuradora y antiinflamatoria fortalece la circulación y el sistema respiratorio. Entre sus hierbas destaca la albahaca que calma el sistema nervioso y favorece la digestión y el orégano antimicrobiano y protector del sistema respiratorio.",
+    "Propiedades esotéricas y espirituosas:",
+    "Sus principales ingredientes empezando por el Tomate y su color rojo simboliza vida, pasión y energía solar; se asocia al corazón y la vitalidad. El Aceite de oliva, considerado sagrado en el Mediterráneo, representa paz y prosperidad. Juntos con las propiedades de protección del ajo,  la abndancia de la albahacay laalegría del oregano hacen de  la  salsa pomodoro  un elixir sanador y espirituoso potente."]
   }
   
 ]
