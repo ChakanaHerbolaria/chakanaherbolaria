@@ -116,6 +116,36 @@
     "El tomate es rico en licopeno, antioxidante que protege el corazón y previene el envejecimiento celular. Contiene vitamina C y A, fortaleciendo defensas y visión. Favorece la digestión y la salud de la piel. Su aceite de oliva es fuente de grasas saludables que protegen el sistema cardiovascular y contiene polifenoles con acción antiinflamatoria; además de favorecer la longevidad y la energía vital. El ajo que lo acompaña es un potente antibiótico natural y regulador de la presión arterial que refuerza el sistema inmunológico. La cebolla depuradora y antiinflamatoria fortalece la circulación y el sistema respiratorio. Entre sus hierbas destaca la albahaca que calma el sistema nervioso y favorece la digestión y el orégano antimicrobiano y protector del sistema respiratorio.",
     "Propiedades esotéricas y espirituosas:",
     "Sus principales ingredientes empezando por el Tomate y su color rojo simboliza vida, pasión y energía solar; se asocia al corazón y la vitalidad. El Aceite de oliva, considerado sagrado en el Mediterráneo, representa paz y prosperidad. Juntos con las propiedades de protección del ajo,  la abndancia de la albahacay laalegría del oregano hacen de  la  salsa pomodoro  un elixir sanador y espirituoso potente."]
+  },
+  {
+    "id": "limpenerg",
+    "titulo": "Limpieza Energética",
+    "descripcion": "Polvos mágicos, condimento con propiedades de limpieza",
+    "tipo": "producto",
+    "imagen": "img/limpenerg.jpg",
+    "precio":["$4.5"," $5.25"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":[""]
+  },
+  {
+    "id": "abundancia",
+    "titulo": "Abundancia",
+    "descripcion": "Polvos mágicos, condimento con propiedades de abundancia",
+    "tipo": "producto",
+    "imagen": "img/abundancia.jpg",
+    "precio":["$4.5"," $5.25"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":[""]
+  },
+  {
+    "id": "endulzamiento",
+    "titulo": "Endulzamiento",
+    "descripcion": "Polvos mágicos, condimento con propiedades de atracción",
+    "tipo": "producto",
+    "imagen": "img/endulzamiento.jpg",
+    "precio":["$4.5"," $5.25"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":[""]
   }
   
 ]

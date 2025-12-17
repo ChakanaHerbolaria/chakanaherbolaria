@@ -331,13 +331,22 @@ select {
     display: block; /* botón visible en móvil */
   }
 
+  .prod_individual{
+    display:list-item;
+  }
+  .prod_info{
+    width: 100%;
+  }
   .prod_info #galeria{
-  margin-left: -1%;
+    margin-left: -1%;
   }
   .prod_info #galeria img{
-  border: 5px solid #142010;
-  width: 90%;
-  border-radius: 8px;
+    border: 5px solid #142010;
+    width: 90%;
+    border-radius: 8px;
+  }
+  .prod_uso{
+    width: 91%;
   }
 
   .hero{
