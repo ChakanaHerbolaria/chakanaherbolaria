@@ -146,6 +146,16 @@
     "precio":["$4.5"," $5.25"],
     "cant":["Precio feria","Precio normal"],
     "propiedades":[""]
+  },
+  {
+    "id": "salbruja",
+    "titulo": "Sal de Bruja",
+    "descripcion": "Polvos mágicos, condimento con propiedades",
+    "tipo": "producto",
+    "imagen": "img/salbruja.jpg",
+    "precio":["$4.5"," $5.25"],
+    "cant":["Precio feria","Precio normal"],
+    "propiedades":[""]
   }
   
 ]
